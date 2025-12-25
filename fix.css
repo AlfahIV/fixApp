@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h1 {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 10rem);
+}
+#section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 30vh;
+  background-color: blue;
+}
+button {
+  width: 150px;
+  padding: 5px;
+  margin: 10px;
+}
+/* #potDisplay {
+  display: flex;
+  margin: 10px 10px;
+  justify-content: space-evenly;
+  background-color: #0231fc;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  display: none;
+  opacity: 0;
+} */
+ #potDisplay {
+  display: none; /* Keep this */
+  opacity: 0;    /* Keep this */
+  margin: 10px auto;
+  justify-content: space-evenly;
+  /* background-color: #0231fc; */
+  background-color: #000;
+  gap: 10px;
+  padding: 20px;
+  color: white;
+  width: 90%; /* Give it a width so it's visible */
+}
+table{
+  padding: 20px;
+}
+/* #fixDisplay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+ #fix{
+  display: none;
+ }
+
+/* Add this class to trigger the animation properly */
+.show-pots {
+  display: flex !important;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+.img:hover{
+transform: scale(1.5);
+cursor: pointer;
+border-radius: 50%;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(-10px);
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0px); /* Changed to 0 for better stability */
+  }
+}
+table {
+border: 5px solid white;
+font-size: clamp(.5rem, 1vw, 10rem);
+}
+#message {
+    display: block; /* Make sure it's visible */
+    color: blue;   /* Set color if it's hard to see */
+    text-align: center;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(-10px);
+}
+  to { 
+    opacity: 1; 
+    transform: translateY(10px);
+}
+}

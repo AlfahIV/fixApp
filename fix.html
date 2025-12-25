@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fix.css" />
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon" class="icon" />
+    <title>UCL fixtures</title>
+  </head>
+  <body>
+    <section id="section">
+      <h1>Welcome to 25/26 UCL fixtures</h1>
+      <button id="button">Generate Team Pots..</button>
+    </section>
+    <!-- <section id="potDisplay"> -->
+      <!-- <table> POT - 1</table>
+      <table>POT - 2 </table>
+      <table>POT - 3</table>
+      <table> POT - 4</table> -->
+      <!-- <table>
+        <thead>
+            <td>POT - 1</td>
+            <td>POT - 2</td>
+            <td>POT - 3</td>
+            <td>POT - 4</td>
+        </thead>
+        <tbody>
+            <td id="pot-1">
+                <tr id="PSG"></tr>
+                <tr id="RealMadrid"></tr>
+                <tr id="ManchesterCity"></tr>
+                <tr id="BayernMunich"></tr>
+                <tr id="Liverpool"></tr>
+                <tr id="InterMilan"></tr>
+                <tr id="Chelsea"></tr>
+                <tr id="BorussiaDortmund"></tr>
+                <tr id="FCBarcelona"></tr>
+            </td>
+            <td id="pot-2"></td>
+            <td id="pot-3"></td>
+            <td id="pot-4"></td>
+        </tbody>
+      </table> -->
+
+      <section id="potDisplay" style="display:none;"> 
+        <table>
+    <thead>
+      <tr>
+        <th>POT 1</th>
+        <th>POT 2</th>
+        <th>POT 3</th>
+        <th>POT 4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="pot-1-list"></td>
+        <td id="pot-2-list"></td>
+        <td id="pot-3-list"></td>
+        <td id="pot-4-list"></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<p id="message"></p>    
+<button id="fix">Generate Fixtures</button>
+<p id="fixDisplay"></p>    <!-- <button>Generate Fixtures</button> -->
+  </body>
+  <script src="fix.js"></script>
+</html>
