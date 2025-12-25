@@ -189,91 +189,91 @@ const fixDisplay = document.getElementById("fixDisplay");
 const clubs = {
   pot1: [
     { name: "PSG", 
-      logo: "./assets/POT-1/PSG.png", 
+      logo: "./assets/images/club-logos/PSG.png", 
       country: "Spain" },
     {
       name: "Real Madrid",
-      logo: "./assets/POT-1/Real Madrid.png",
+      logo: "./assets/images/club-logos/Real Madrid.png",
       country: "Spain",
     },
     {
       name: "Manchester City",
-      logo: "./assets/POT-1/Manchester City.png",
+      logo: "./assets/images/club-logos/Manchester City.png",
       country: "England",
     },
     {
       name: "Bayern Munich",
-      logo: "./assets/POT-1/Bayern Munich.png",
+      logo: "./assets/images/club-logos/Bayern Munich.png",
       country: "Germany",
     },
     {
       name: "Liverpool",
-      logo: "./assets/POT-1/Liverpool.png",
+      logo: "./assets/images/club-logos/Liverpool.png",
       country: "England",
     },
     {
       name: "Inter Milan",
-      logo: "./assets/POT-1/Inter-Milan.png",
+      logo: "./assets/images/club-logos/Inter-Milan.png",
       country: "Italy",
     },
     { name: "Chelsea", 
-      logo: "./assets/POT-1/Chelsea.png", 
+      logo: "./assets/images/club-logos/Chelsea.png", 
       country: "England" },
     {
       name: "Borussia Dortmund",
-      logo: "./assets/POT-1/Borussia Dortmund.png",
+      logo: "./assets/images/club-logos/Borussia Dortmund.png",
       country: "Germany",
     },
     {
       name: "FC Barcelona",
-      logo: "./assets/POT-1/FC Barcelona.png",
+      logo: "./assets/images/club-logos/FC Barcelona.png",
       country: "Spain",
     },
   ],
   pot2: [
     {
       name: "Arsenal",
-      logo: "./assets/POT-2/Arsenal.png",
+      logo: "./assets/images/club-logos/Arsenal.png",
       country: "England",
     },
     {
       name: "Atalanta",
-      logo: "./assets/POT-2/Atalanta.png",
+      logo: "./assets/images/club-logos/Atalanta.png",
       country: "Italy",
     },
     {
       name: "Atletico Madrid",
-      logo: "./assets/POT-2/Atletico Madrid.png",
+      logo: "./assets/images/club-logos/Atletico Madrid.png",
       country: "Spain",
     },
     {
       name: "Bayer Leverkusen",
-      logo: "./assets/POT-2/Bayer Leverkusen.png",
+      logo: "./assets/images/club-logos/Bayer Leverkusen.png",
       country: "Germany",
     },
     {
       name: "Eintracht Frankfurt",
-      logo: "./assets/POT-2/Eintrancht Frankfurt.png",
+      logo: "./assets/images/club-logos/Eintrancht Frankfurt.png",
       country: "Germany",
     },
     {
       name: "Juventus",
-      logo: "./assets/POT-2/Juventus.png",
+      logo: "./assets/images/club-logos/Juventus.png",
       country: "Italy",
     },
     {
       name: "Villareal",
-      logo: "./assets/POT-2/Villareal.png",
+      logo: "./assets/images/club-logos/Villareal.png",
       country: "Spain",
     },
     {
       name:"Benfica",
-      logo:"./assets/POT-2/Benfica.png",
+      logo:"./assets/images/club-logos/Benfica.png",
       country:"Portugal"
     },
     {
       name:"Club Brugge",
-      logo:"./assets/POT-2/Club Brugge.png",
+      logo:"./assets/images/club-logos/Club Brugge.png",
       country:"Belgium"
     },
   ],
