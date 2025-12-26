@@ -215,24 +215,24 @@ function generateFixturesForTeam(team) {
         allOpponents.opponents[`pot${i+1}`] = [];
         
         if (allPots[i].includes(team)) {
-            while (allOpponents.opponents[`pot${i+1}`].length < 2) {
-                const randomIndex = Math.floor(Math.random() * notTeamCountries.length);
-                if (
-                    !allOpponents.opponents[`pot${i+1}`].includes(notTeamCountries[randomIndex])
-                ){
-                    allOpponents.opponents[`pot${i+1}`].push(notTeamCountries[randomIndex]);
-                }
-            }
+          while (allOpponents.opponents[`pot${i+1}`].length < 2) {
+              const randomIndex = Math.floor(Math.random() * notTeamCountries.length);
+              if (
+                  !allOpponents.opponents[`pot${i+1}`].includes(notTeamCountries[randomIndex])
+              ){
+                  allOpponents.opponents[`pot${i+1}`].push(notTeamCountries[randomIndex]);
+              }
+          }
         } else {
-            // const otherTeams = allPots[i];
-            while (allOpponents.opponents[`pot${i+1}`].length < 2) {
-                const selectedIndex = Math.floor(Math.random() * notTeamCountries.length);
-                if (
-                    !allOpponents.opponents[`pot${i+1}`].includes(notTeamCountries[selectedIndex])
-                ){
-                    allOpponents.opponents[`pot${i+1}`] = notTeamCountries[selectedIndex];
-                }
+          // const otherTeams = allPots[i];
+          while (allOpponents.opponents[`pot${i+1}`].length < 2) {
+            const selectedIndex = Math.floor(Math.random() * notTeamCountries.length);
+            if (
+              !allOpponents.opponents[`pot${i+1}`].includes(notTeamCountries[selectedIndex])
+            ){
+              allOpponents.opponents[`pot${i+1}`].push(notTeamCountries[selectedIndex]);
             }
+          }
         }
     };
     
